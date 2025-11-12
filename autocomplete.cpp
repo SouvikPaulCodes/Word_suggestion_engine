@@ -1,11 +1,3 @@
-/*
-    Aurthor: Labdhi Anand
-
-    # AutoSuggestor and Completion for cross platform.
-    # Auto Completion on TAB press
-    // Add any word you want to dictionary.txt file
-*/
-
 #include <iostream>
 #include <fstream> //lets us read/write files (like dictionary.txt)
 #include <string>
@@ -214,4 +206,5 @@ int getArrayLength(const string* arrPtr) { //counrts non empty strings in arrPtr
 }
 void clearScreen(){
     cout << "\033[2J\033[1;1H"; // Ascii key to clear console. [Platform Independent]
+
 }
